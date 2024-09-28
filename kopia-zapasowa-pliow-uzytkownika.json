@@ -2,8 +2,8 @@
 {"type": "h2", "sectionID": "section1", "elementContent": ["Wymagania wstepne"]},
   {"type": "span", "sectionID": "section1","elementContent":["Do wykonania tego zadania potrzebujesz maszynę wirtualną z windowsem klienckim oraz wiedzę z nastepujących artykułów:",""]},
   {"type": "br", "sectionID": "section1"},
-  {"type": "link-art", "sectionID": "section1", "elementContent": ["Panel-sterowania", "Windows-10"]},
-  {"type": "link-art", "sectionID": "section1", "elementContent": ["Ustawienia", "Windows-10"]},
+  {"type": "link-art", "sectionID": "section1", "elementContent": ["Panel sterowania", "Windows 10"]},
+  {"type": "link-art", "sectionID": "section1", "elementContent": ["Ustawienia", "Windows 10"]},
 
 {"type": "h2", "sectionID": "section2", "elementContent": ["Tworzenie nowego użytkownika"]},
   {"type": "span", "sectionID": "section2","elementContent":["Dane konta użytkownika:",""]},
@@ -19,7 +19,32 @@
 {"type": "br", "sectionID": "section2"},
   {"type": "span", "sectionID": "section2","elementContent":["Zdjecie profilowe użytkownika (Avatar):",""]},
   {"type": "b", "sectionID": "section2", "elementContent": ["Dowolne zdjecie z internetu na którym bedzie widnieć siedzący lew.",""]},
+ {"type": "img", "sectionID": "section2", "elementContent": [
+    "Edu-Koala-V/koala-v-assets-art1/main/windows10/MMC.webp",
+    "Aplikacja Ustawienia w Windows 8",
+    "1921","1033", "Edu-Koala-V/koala-v-assets-art1/main/windows10/MMC_ORIGINAL.webp"
+    ]},
+  {"type": "br", "sectionID": "section2"},
+  
+    {"type": "list","sectionID": "section2", "elementContent": {"ver":"ol",
+    "listElements":[
+      [
+        {"type": "bi", "sectionID": "section2","elementContent":["Decyzje prawne:",""]},
+        {"type": "span", "sectionID": "section2","elementContent":["Wersje ",""]},
+        {"type": "i", "sectionID": "section2","elementContent":["N","red"]},
+        {"type": "span", "sectionID": "section2","elementContent":["powstały w wyniku decyzji prawnych. W ",""]},
+        {"type": "b", "sectionID": "section2","elementContent":["2004",""]},
+        {"type": "span", "sectionID": "section2","elementContent":[" roku Komisja Europejska nakazała Microsoftowi dostarczenie wersji systemu Windows bez odtwarzacza Windows Media Player, aby zapewnić uczciwą konkurencję na rynku przeglądarek internetowych i odtwarzaczy multimedialnych.",""]}
+      ],
+      "Decyzje prawne: Wersje N powstały w wyniku decyzji prawnych. W 2004 roku Komisja Europejska nakazała Microsoftowi dostarczenie wersji systemu Windows bez odtwarzacza Windows Media Player, aby zapewnić uczciwą konkurencję na rynku przeglądarek internetowych i odtwarzaczy multimedialnych.",
+    
+      "Wybór użytkownika: Wersje N pozwalają użytkownikom wybrać, czy chcą korzystać z odtwarzacza Windows Media Player czy z innych dostępnych aplikacji multimedialnych. Dla niektórych użytkowników odtwarzacz Windows Media Player nie jest potrzebny, dlatego wersje N stanowią alternatywę.",
+    
+      "Specjalne zastosowania: Wersje N są również używane w niektórych specjalistycznych zastosowaniach, takich jak systemy wbudowane, urządzenia kioskowe czy komputery w miejscach publicznych. Wyeliminowanie odtwarzacza multimedialnego może pomóc w zminimalizowaniu zbędnych funkcji."
+      ] }},
 
+  {"type": "br", "sectionID": "section2"},
+    {"type": "link","sectionID":"section1","elementContent":["https://www.microsoft.com/pl-pl/windows/windows-10-specifications"]},
 
 
       {"type": "h2", "sectionID": "section20", "elementContent": ["Po wykonaniu zadania i sprawdzeniu poprawności jego działania zgłoś to nauczycielowi", "uwaga"]}
