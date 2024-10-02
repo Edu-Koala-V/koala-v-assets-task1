@@ -69,7 +69,6 @@
   {"type": "span", "sectionID": "section3","elementContent":["oraz ",""]},
   {"type": "span", "sectionID": "section3","elementContent":["lost + found ","blue"]},
   {"type": "br", "sectionID": "section3"},
-  {"type": "span", "sectionID": "section3","elementContent":["Wyświetl na kliencie informacje o interfejsach i wykonaj krótki ping (4 sygnały)",""]},
   
   {"type": "h2", "sectionID": "section3", "elementContent": ["Po wykonaniu zadania i sprawdzeniu poprawności jego działania zgłoś to nauczycielowi", "uwaga"]}
   ]
