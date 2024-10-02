@@ -30,32 +30,32 @@
           ],
           
           [
-            {"type": "span", "sectionID": "section2", "elementContent": ["lsblk", ""]}
+            {"type": "text-block-name", "sectionID": "section2", "elementContent": ["lsblk", ""]}
           ],
           [
-            {"type": "span", "sectionID": "section2", "elementContent": ["ls", ""]}
+            {"type": "text-block-name", "sectionID": "section2", "elementContent": ["ls", ""]}
           ],
           [
-            {"type": "span", "sectionID": "section2", "elementContent": ["mkfs", ""]}
+            {"type": "text-block-name", "sectionID": "section2", "elementContent": ["mkfs", ""]}
           ],
           [
-            {"type": "span", "sectionID": "section2", "elementContent": ["touch", ""]}
+            {"type": "text-block-name", "sectionID": "section2", "elementContent": ["touch", ""]}
           ], 
           [
-            {"type": "span", "sectionID": "section2", "elementContent": ["nano", ""]}
+            {"type": "text-block-name", "sectionID": "section2", "elementContent": ["nano", ""]}
           ],
           [
-            {"type": "span", "sectionID": "section2", "elementContent": ["mount", ""]}
+            {"type": "text-block-name", "sectionID": "section2", "elementContent": ["mount", ""]}
           ],
           [
-            {"type": "span", "sectionID": "section2", "elementContent": ["umount", ""]}
+            {"type": "text-block-name", "sectionID": "section2", "elementContent": ["umount", ""]}
           ],
           [
-            {"type": "span", "sectionID": "section2", "elementContent": ["cd", ""]}
+            {"type": "text-block-name", "sectionID": "section2", "elementContent": ["cd", ""]}
           ],
           
           [
-            {"type": "span", "sectionID": "section2", "elementContent": ["mkdir", ""]}
+            {"type": "text-block-name", "sectionID": "section2", "elementContent": ["mkdir", ""]}
           ]
       ]},
 
@@ -63,7 +63,7 @@
     
   {"type": "h2", "sectionID": "section3", "elementContent": ["Efekt końcowi:",""]},
   {"type": "span", "sectionID": "section3","elementContent":["Gdy podłączysz dysk do katalogu to przy pomocy komendy:",""]},
-  {"type": "text-block-name", "sectionID": "section1", "elementContent": ["ls -l /bezwzględna/lokalizacja/katalogu/do/sprawdzenia",""]},
+  {"type": "text-block-name", "sectionID": "section3", "elementContent": ["ls -l /bezwzględna/lokalizacja/katalogu/do/sprawdzenia",""]},
   {"type": "span", "sectionID": "section3","elementContent":["Powinien pojawić się plik DANE z wpisanymi danymi",""]},
   {"type": "br", "sectionID": "section3"},
   {"type": "span", "sectionID": "section3","elementContent":["oraz ",""]},
