@@ -1,0 +1,74 @@
+[
+  {"type": "h2", "sectionID": "section1", "elementContent": ["Zarządzanie dyskami w systemach Linux"]},
+  {"type": "h2", "sectionID": "section1", "elementContent": ["Wymagania wstępne:","wymagania"]},
+{"type": "b", "sectionID": "section1","elementContent":["Ubuntu w wersji serwerowej",""]},
+{"type": "br", "sectionID": "section1"},
+  
+  
+  {"type": "h2", "sectionID": "section2", "elementContent": ["Treść zadania","interface"]},
+  {"type": "span", "sectionID": "section2","elementContent":["Dodaj nowy dysk SATA do kontrolera SATA w ustawieniach maszyny Ubuntu server. ",""]},
+  {"type": "br", "sectionID": "section2"},
+    {"type": "br", "sectionID": "section2"},
+  {"type": "span", "sectionID": "section2","elementContent":["Aby to dokonać w ustawieniach przejdź do zakładki pamięć i klikając prawym na kontroler SATA dodaj nowy dysk. Stwórz nowy dynamiczny dysk .vdi bez zaznaczania Pre-allocate Full Size o minimalnym rozmiarze 10GB. ",""]},
+ {"type": "br", "sectionID": "section2"},
+    {"type": "br", "sectionID": "section2"},
+ {"type": "span", "sectionID": "section2","elementContent":["",""]},
+
+ {"type": "list","sectionID": "section2", "elementContent": {"ver":"ul",
+ "listElements":["Dowiedz się jaka jest nazwa nowego dysku w systemie Linux",
+ "Sformatuj nowy dysk na system plików ext4",
+ "Utwórz nowy katalog /home/egza/dysk_dane/",
+  "Podłącz nowy dysk do nowego katalogu",
+  "Na nowym dysku utwórz plik DANE",
+  "W pliku DANE wpisz swoje dane: Imię, Nazwisko, Nr z dziennika"
+ ] }},
+
+
+    {"type": "table", "sectionID": "section2","elementContent": [
+          [
+            {"type": "span", "sectionID": "section2", "elementContent": ["Komendy pomocnicze", ""]}
+          ],
+          
+          [
+            {"type": "text-block-name", "sectionID": "section2", "elementContent": ["lsblk", ""]}
+          ],
+          [
+            {"type": "text-block-name", "sectionID": "section2", "elementContent": ["ls", ""]}
+          ],
+          [
+            {"type": "text-block-name", "sectionID": "section2", "elementContent": ["mkfs", ""]}
+          ],
+          [
+            {"type": "text-block-name", "sectionID": "section2", "elementContent": ["touch", ""]}
+          ], 
+          [
+            {"type": "text-block-name", "sectionID": "section2", "elementContent": ["nano", ""]}
+          ],
+          [
+            {"type": "text-block-name", "sectionID": "section2", "elementContent": ["mount", ""]}
+          ],
+          [
+            {"type": "text-block-name", "sectionID": "section2", "elementContent": ["umount", ""]}
+          ],
+          [
+            {"type": "text-block-name", "sectionID": "section2", "elementContent": ["cd", ""]}
+          ],
+          
+          [
+            {"type": "text-block-name", "sectionID": "section2", "elementContent": ["mkdir", ""]}
+          ]
+      ]},
+
+     
+    
+  {"type": "h2", "sectionID": "section3", "elementContent": ["Efekt końcowi:",""]},
+  {"type": "span", "sectionID": "section3","elementContent":["Gdy podłączysz dysk do katalogu to przy pomocy komendy:",""]},
+  {"type": "text-block-name", "sectionID": "section3", "elementContent": ["ls -l /bezwzględna/lokalizacja/katalogu/do/sprawdzenia",""]},
+  {"type": "span", "sectionID": "section3","elementContent":["Powinien pojawić się plik DANE z wpisanymi danymi",""]},
+  {"type": "br", "sectionID": "section3"},
+  {"type": "span", "sectionID": "section3","elementContent":["oraz ",""]},
+  {"type": "span", "sectionID": "section3","elementContent":["lost + found ","blue"]},
+  {"type": "br", "sectionID": "section3"},
+  
+  {"type": "h2", "sectionID": "section3", "elementContent": ["Po wykonaniu zadania i sprawdzeniu poprawności jego działania zgłoś to nauczycielowi", "uwaga"]}
+  ]
