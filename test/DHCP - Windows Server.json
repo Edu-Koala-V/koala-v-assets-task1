@@ -1,0 +1,5 @@
+[
+    {"type": "h2", "sectionID": "section1", "elementContent": ["Nazwa zadania"]},
+    {"type": "span", "sectionID": "section1","elementContent":["Przykładowy tekst wstępu do lekcji",""]},
+    {"type": "br", "sectionID": "section1"}
+    ]
