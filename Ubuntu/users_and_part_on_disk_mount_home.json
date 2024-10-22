@@ -1,1 +1,12 @@
-[{"type":"h2","sectionID":"section1","elementContent":["Nazwa zadania",""]}]
+ [
+    {"type": "h2", "sectionID": "section1", "elementContent": ["Podział partycji z dysku na wielu użytkowników"]},
+    {"type": "h2", "sectionID": "section1", "elementContent": ["Wymagania wstępne:","wymagania"]},
+    {"type": "b", "sectionID": "section1","elementContent":["Ubuntu w wersji klienckiej",""]},
+    {"type": "br", "sectionID": "section1"},
+    {"type": "b", "sectionID": "section1","elementContent":["Windows w wersji serwerowej",""]},
+    {"type": "h2", "sectionID": "section2", "elementContent": ["Treść zadania","interface"]},
+    {"type": "span", "sectionID": "section2","elementContent":["treść",""]},
+    {"type": "h2", "sectionID": "section3", "elementContent": ["Efekt końcowi:",""]},
+    {"type": "span", "sectionID": "section3","elementContent":["treść",""]},
+    {"type": "h2", "sectionID": "section3", "elementContent": ["Po wykonaniu zadania i sprawdzeniu poprawności jego działania zgłoś to nauczycielowi", "uwaga"]}
+    ]
