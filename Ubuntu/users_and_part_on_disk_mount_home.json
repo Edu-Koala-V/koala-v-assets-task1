@@ -1,1 +1,122 @@
-[{"type":"h2","sectionID":"section1","elementContent":["Podział partycji z dysku na wielu użytkowników",""]},{"type":"h2","sectionID":"section1","elementContent":["Wymagania wstępne:","wymagania"]},{"type":"b","sectionID":"section1","elementContent":["Ubuntu w wersji klienckiej",""]},{"type":"br","sectionID":"section1"},{"type":"h2","sectionID":"section2","elementContent":["Treść zadania","interface"]},{"type":"b","sectionID":"section2","elementContent":["SATA ",""]},{"type":"span","sectionID":"section2","elementContent":["o pojemności ",""]},{"type":"b","sectionID":"section2","elementContent":["15 GB","pink"]},{"type":"span","sectionID":"section2","elementContent":[" do maszyny i podziel go na ",""]},{"type":"u","sectionID":"section2","elementContent":["dwie partycje",""]},{"type":"span","sectionID":"section2","elementContent":[", każda o wielkości ",""]},{"type":"b","sectionID":"section2","elementContent":["7 GB","pink"]},{"type":"span","sectionID":"section2","elementContent":[".",""]},{"type":"br","sectionID":"section2"},{"type":"br","sectionID":"section2"},{"type":"list","sectionID":"section2","elementContent":{"ver":"ul","listElements":[[{"type":"b","sectionID":"section2","elementContent":["Zadania w katalogu domowym Adama: ",""]},{"type":"i","sectionID":"section2","elementContent":["Zadania w katalogu domowym Adama: ",""]},{"type":"span","sectionID":"section2","elementContent":["Właścicielem ma być Adam, ",""]},{"type":"b","sectionID":"section2","elementContent":["","green"]},{"type":"span","sectionID":"section2","elementContent":["","green"]},{"type":"span","sectionID":"section2","elementContent":["plik",""]},{"type":"span","sectionID":"section2","elementContent":["","green"]},{"type":"b","sectionID":"section2","elementContent":[" ","green"]},{"type":"span","sectionID":"section2","elementContent":["katalog należy do grupy eden a jego uprawnienia to -rwxrwx---",""]}],[{"type":"b","sectionID":"section2","elementContent":["Zadania w katalogu domowym Ewy: ",""]},{"type":"i","sectionID":"section2","elementContent":["Zadania w katalogu domowym Ewy: ",""]}]]}},{"type":"br","sectionID":"section2"},{"type":"br","sectionID":"section2"},{"type":"br","sectionID":"section2"},{"type":"h2","sectionID":"section3","elementContent":["Efekt końcowi:",""]},{"type":"br","sectionID":"section3"},{"type":"br","sectionID":"section3"},{"type":"h2","sectionID":"section3","elementContent":["Po wykonaniu zadania i sprawdzeniu poprawności jego działania zgłoś to nauczycielowi","uwaga"]}]
+[
+  {
+    "type": "h2",
+    "sectionID": "section1",
+    "elementContent": ["Podział partycji z dysku na wielu użytkowników", ""]
+  },
+  {
+    "type": "h2",
+    "sectionID": "section1",
+    "elementContent": ["Wymagania wstępne:", "wymagania"]
+  },
+  {
+    "type": "b",
+    "sectionID": "section1",
+    "elementContent": ["Ubuntu w wersji klienckiej", ""]
+  },
+  { "type": "br", "sectionID": "section1" },
+  {
+    "type": "h2",
+    "sectionID": "section2",
+    "elementContent": ["Treść zadania", "interface"]
+  },
+  { "type": "b", "sectionID": "section2", "elementContent": ["SATA ", ""] },
+  {
+    "type": "span",
+    "sectionID": "section2",
+    "elementContent": ["o pojemności ", ""]
+  },
+  { "type": "b", "sectionID": "section2", "elementContent": ["15 GB", "pink"] },
+  {
+    "type": "span",
+    "sectionID": "section2",
+    "elementContent": [" do maszyny i podziel go na ", ""]
+  },
+  {
+    "type": "u",
+    "sectionID": "section2",
+    "elementContent": ["dwie partycje", ""]
+  },
+  {
+    "type": "span",
+    "sectionID": "section2",
+    "elementContent": [", każda o wielkości ", ""]
+  },
+  { "type": "b", "sectionID": "section2", "elementContent": ["7 GB", "pink"] },
+  { "type": "span", "sectionID": "section2", "elementContent": [".", ""] },
+  { "type": "br", "sectionID": "section2" },
+  {
+    "type": "list",
+    "sectionID": "section2",
+    "elementContent": {
+      "ver": "ul",
+      "listElements": [
+        [
+          {
+            "type": "b",
+            "sectionID": "section2",
+            "elementContent": ["Zadania w katalogu domowym Adama: ", ""]
+          },
+          {
+            "type": "i",
+            "sectionID": "section2",
+            "elementContent": ["Zadania w katalogu domowym Adama: ", ""]
+          },
+          {
+            "type": "span",
+            "sectionID": "section2",
+            "elementContent": ["Właścicielem ma być Adam, ", ""]
+          },
+          {
+            "type": "span",
+            "sectionID": "section2",
+            "elementContent": ["plik", ""]
+          },
+          
+          {
+            "type": "span",
+            "sectionID": "section2",
+            "elementContent": [
+              "katalog należy do grupy eden a jego uprawnienia to -rwxrwx---",
+              ""
+            ]
+          }
+        ],
+        [
+          {
+            "type": "b",
+            "sectionID": "section2",
+            "elementContent": ["Zadania w katalogu domowym Ewy: ", ""]
+          },
+          {
+            "type": "i",
+            "sectionID": "section2",
+            "elementContent": ["Zadania w katalogu domowym Ewy: ", ""]
+          }
+        ]
+      ]
+    }
+  },
+  { "type": "br", "sectionID": "section2" },
+  { "type": "span", "sectionID": "section2", "elementContent":["Skonfiguruj /etc/fstab aby obie partycje były montowane automatycznie",""]},
+  { "type": "br", "sectionID": "section2" },
+  {
+    "type": "h2",
+    "sectionID": "section3",
+    "elementContent": ["Efekt końcowi:", ""]
+  },
+{
+    "type": "span",
+    "sectionID": "section3",
+    "elementContent": ["Zrestartuj maszynę w obecności nauczyciela, a następnie uruchom terminal i przełącz się na konto Adama. Użyj polecenia ls -l, aby wyświetlić uprawnienia katalogu “zadania”. Następnie spróbuj przejść do katalogu “zadania”, którego właścicielem jest Ewa. Z konta Adama nie powinno to być możliwe ze względu na uprawnienia. Przełącz się na konto Ewy, pokaż zawartość katalogu “zadania” za pomocą polecenia ls -l i wyświetl zawartość pliku zadanie.txt.", ""]
+},
+  { "type": "br", "sectionID": "section3" },
+  {
+    "type": "h2",
+    "sectionID": "section3",
+    "elementContent": [
+      "Po wykonaniu zadania i sprawdzeniu poprawności jego działania zgłoś to nauczycielowi",
+      "uwaga"
+    ]
+  }
+]
