@@ -70,14 +70,14 @@
           {
             "type": "span",
             "sectionID": "section2",
-            "elementContent": ["plik", ""]
+            "elementContent": ["katalog", ""]
           },
           
           {
             "type": "span",
             "sectionID": "section2",
             "elementContent": [
-              "katalog należy do grupy eden a jego uprawnienia to -rwxrwx---",
+              " należy do grupy eden a jego uprawnienia to drwxrwx---",
               ""
             ]
           }
@@ -92,6 +92,25 @@
             "type": "i",
             "sectionID": "section2",
             "elementContent": ["Zadania w katalogu domowym Ewy: ", ""]
+          },
+          {
+            "type": "span",
+            "sectionID": "section2",
+            "elementContent": ["Właścicielem ma być Ewa, ", ""]
+          },
+          {
+            "type": "span",
+            "sectionID": "section2",
+            "elementContent": ["katalog", ""]
+          },
+          
+          {
+            "type": "span",
+            "sectionID": "section2",
+            "elementContent": [
+              " należy do grupy eden a jego uprawnienia to drwxrw----",
+              ""
+            ]
           }
         ]
       ]
