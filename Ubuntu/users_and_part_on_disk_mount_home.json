@@ -121,7 +121,7 @@
   { "type": "br", "sectionID": "section2" },
   {
     "type": "h2",
-    "sectionID": "section3",
+    "sectionID": "section2",
     "elementContent": ["Efekt końcowi:", ""]
   },
   {
