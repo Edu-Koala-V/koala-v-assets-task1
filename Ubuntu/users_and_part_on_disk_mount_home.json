@@ -126,61 +126,61 @@
   },
   {
     "type": "list",
-    "sectionID": "section1",
+    "sectionID": "section2",
     "elementContent": {
       "ver": "ul",
       "listElements": [
         [
           {
             "type": "span",
-            "sectionID": "section1",
+            "sectionID": "section2",
             "elementContent": ["Katalog domowy Adama zawiera: ", ""]
           },
           {
             "type": "span",
-            "sectionID": "section1",
+            "sectionID": "section2",
             "elementContent": ["katalogi: ", ""]
           },
           {
             "type": "b",
-            "sectionID": "section1",
+            "sectionID": "section2",
             "elementContent": ["zadania", "pink"]
           },
           {
             "type": "span",
-            "sectionID": "section1",
+            "sectionID": "section2",
             "elementContent": [" do którego jest podłączona partycja 7GB z dodatkowego dysku 15GB a na niej plik: ", ""]
           },
           {
             "type": "b",
-            "sectionID": "section1",
+            "sectionID": "section2",
             "elementContent": ["zadanie.txt", "pink"]
           }
         ],
         [
           {
             "type": "span",
-            "sectionID": "section1",
+            "sectionID": "section2",
             "elementContent": ["Katalog domowy Ewy zawiera: ", ""]
           },
           {
             "type": "span",
-            "sectionID": "section1",
+            "sectionID": "section2",
             "elementContent": ["katalogi: ", ""]
           },
           {
             "type": "b",
-            "sectionID": "section1",
+            "sectionID": "section2",
             "elementContent": ["zadania", "pink"]
           },
           {
             "type": "span",
-            "sectionID": "section1",
+            "sectionID": "section2",
             "elementContent": [" do którego jest podłączona partycja 7GB z dodatkowego dysku 15GB a na niej plik: ", ""]
           },
           {
             "type": "b",
-            "sectionID": "section1",
+            "sectionID": "section2",
             "elementContent": ["zadanie.txt", "pink"]
           }
       
@@ -188,63 +188,63 @@
         [
           {
             "type":"bi",
-            "sectionID":"section1",
+            "sectionID":"section2",
             "elementContent":["Zrestartuj maszynę w obecności nauczyciela.",""]
           }
         ],
         [
           {
             "type":"bi",
-            "sectionID":"section1",
+            "sectionID":"section2",
             "elementContent":["Po restarcie uruchom terminal i aplikację Disks",""]
           }
         ],
         [
           {
             "type":"bi",
-            "sectionID":"section1",
+            "sectionID":"section2",
             "elementContent":["Pokaż że dyski są montowane automatycznie w folderach “zadania” z katalogów domowych Adama i Ewy. (ikona gwizdki ★ i ikona play ➤ na partycji oraz ścieżka montażu)",""]
           }
         ],
         [
           {
             "type":"bi",
-            "sectionID":"section1",
+            "sectionID":"section2",
             "elementContent":["Przełącz się na konto Adama.",""]
           }
         ],
         [
           {
             "type":"bi",
-            "sectionID":"section1",
+            "sectionID":"section2",
             "elementContent":["Użyj polecenia ls -l, aby wyświetlić uprawnienia katalogu “zadania”.",""]
           }
         ],
         [
           {
             "type":"bi",
-            "sectionID":"section1",
+            "sectionID":"section2",
             "elementContent":["Spróbuj przejść do katalogu “zadania”, którego właścicielem jest Ewa. Z konta Adama nie powinno to być możliwe ze względu na uprawnienia.",""]
           }
         ],
         [
           {
             "type":"bi",
-            "sectionID":"section1",
+            "sectionID":"section2",
             "elementContent":["Przełącz się na konto Ewy.",""]
           }
         ],
         [
           {
             "type":"bi",
-            "sectionID":"section1",
+            "sectionID":"section2",
             "elementContent":["Pokaż zawartość katalogu “zadania” za pomocą polecenia ls -l.",""]
           }
         ],
         [
           {
             "type":"bi",
-            "sectionID":"section1",
+            "sectionID":"section2",
             "elementContent":["Wyświetl zawartość pliku zadanie.txt przy pomocy polecenia cat",""]
           }
         ]
