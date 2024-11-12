@@ -1,0 +1,229 @@
+[
+  {
+    "type": "h2",
+    "sectionID": "section1",
+    "elementContent": [
+      "AD (Active Directory) użytkownicy z ograniczeniami czasowymi",
+      "orange"
+    ]
+  },
+  {
+    "type": "h2",
+    "sectionID": "section1",
+    "elementContent": ["Wymagania wstępne:", "wymagania"]
+  },
+  {
+    "type": "b",
+    "sectionID": "section1",
+    "elementContent": ["Windows w wersji klienckiej", ""]
+  },
+  { "type": "br", "sectionID": "section1" },
+  {
+    "type": "b",
+    "sectionID": "section1",
+    "elementContent": ["Windows w wersji serwerowej", ""]
+  },
+  {
+    "type": "h2",
+    "sectionID": "section2",
+    "elementContent": ["Treść zadania", "interface"]
+  },
+  {
+    "type": "span",
+    "sectionID": "section2",
+    "elementContent": [
+      "Skonfiguruj ustawienia maszyn systemowych w VirtualBox. ",
+      ""
+    ]
+  },
+  { "type": "br", "sectionID": "section2" },
+  { "type": "br", "sectionID": "section2" },
+  {
+    "type": "span",
+    "sectionID": "section2",
+    "elementContent": [
+      "Windows Server ma mieć włączone jedynie karta sieciowa 1 - jako NAT i Karta 2 - jako Sieć wewnętrzna.",
+      ""
+    ]
+  },
+  { "type": "br", "sectionID": "section2" },
+  { "type": "br", "sectionID": "section2" },
+  {
+    "type": "span",
+    "sectionID": "section2",
+    "elementContent": [
+      "Windows Klient ma mieć włączone jedynie karta sieciowa 1 - jako Sieć wewnętrzna.",
+      ""
+    ]
+  },
+  { "type": "br", "sectionID": "section2" },
+  { "type": "br", "sectionID": "section2" },
+  {
+    "type": "span",
+    "sectionID": "section2",
+    "elementContent": [
+      "Dokonaj konfiguracji interfejsów zgodnie z poniższą tabelą i przeprowadź test połączenia komendą ",
+      ""
+    ]
+  },
+  { "type": "i", "sectionID": "section2", "elementContent": ["ping.", ""] },
+  { "type": "br", "sectionID": "section2" },
+  {
+    "type": "table",
+    "sectionID": "section2",
+    "elementContent": [
+      [["Konfiguracja Windows Server"]],
+      [
+        [
+          {
+            "type": "span",
+            "sectionID": "section2",
+            "elementContent": ["Adres IP", ""]
+          }
+        ],
+        [
+          {
+            "type": "span",
+            "sectionID": "section2",
+            "elementContent": ["10.0.0.10/24", ""]
+          }
+        ]
+      ]
+    ]
+  },
+
+  {
+    "type": "table",
+    "sectionID": "section2",
+    "elementContent": [
+      [["Konfiguracja Windows Klient"]],
+      [
+        [
+          {
+            "type": "span",
+            "sectionID": "section2",
+            "elementContent": ["Adres IP", ""]
+          }
+        ],
+        [
+          {
+            "type": "span",
+            "sectionID": "section2",
+            "elementContent": ["10.0.10.20/16", ""]
+          }
+        ]
+      ],
+      [
+        [
+          {
+            "type": "span",
+            "sectionID": "section2",
+            "elementContent": ["Adresy Bramy domyślnej", ""]
+          }
+        ],
+        [
+          {
+            "type": "span",
+            "sectionID": "section2",
+            "elementContent": ["Adres IP servera", ""]
+          }
+        ]
+      ],
+      [
+        [
+          {
+            "type": "span",
+            "sectionID": "section2",
+            "elementContent": ["Adresy DNS", ""]
+          }
+        ],
+        [
+          {
+            "type": "span",
+            "sectionID": "section2",
+            "elementContent": ["Adres IP servera", ""]
+          }
+        ]
+      ]
+    ]
+  },
+  { "type": "br", "sectionID": "section2" },
+  { "type": "br", "sectionID": "section2" },
+  {
+    "type": "span",
+    "sectionID": "section2",
+    "elementContent": [
+      "Dodaj nową rolę na serwerze Windows Server - Active Directory Domain Services. [ Usługi domenowe Active Directory ]",
+      ""
+    ]
+  },
+  { "type": "br", "sectionID": "section2" },
+  { "type": "br", "sectionID": "section2" },
+  {
+    "type": "span",
+    "sectionID": "section2",
+    "elementContent": [
+      "Dodaj klienta do domeny. [ Windows Klient ]",
+      ""
+    ]
+  },
+  { "type": "br", "sectionID": "section2" },
+  { "type": "br", "sectionID": "section2" },
+  {
+    "type": "span",
+    "sectionID": "section2",
+    "elementContent": [
+      "Utwórz nowego użytkownika Ania w AD i ogranicz mu dostęp do komputera w godzinach 8:00 - 16:00.",
+      ""
+    ]
+  },
+  { "type": "br", "sectionID": "section2" },
+  { "type": "br", "sectionID": "section2" },
+  {
+    "type": "span",
+    "sectionID": "section2",
+    "elementContent": [
+      "Utwórz nowego użytkownika Adam i ogranicz mu dostęp do komputera w godzinach 16:00 - 00:00.",
+      ""
+    ]
+  },
+  {
+    "type": "h2",
+    "sectionID": "section3",
+    "elementContent": ["Efekt końcowi:", ""]
+  },
+  {
+    "type": "span",
+    "sectionID": "section3",
+    "elementContent": [
+      "Z poziomu klienta zalogujesz się na konto Ania w godzinach 8:00 - 16:00 bez problemu.",
+      ""
+    ]
+  },
+  { "type": "br", "sectionID": "section3" },
+  {
+    "type": "span",
+    "sectionID": "section3",
+    "elementContent": [
+      "Jednocześnie nie będziesz wstanie w tym samym czasie zalogować się na konto Adam. ",
+      ""
+    ]
+  },
+  { "type": "br", "sectionID": "section3" },
+  {
+    "type": "span",
+    "sectionID": "section3",
+    "elementContent": [
+      "Pojawi się wtedy stosowny komunikat wskazujący na odmowę logowania z powodu ograniczeń czasowych.",
+      ""
+    ]
+  },
+  {
+    "type": "h2",
+    "sectionID": "section3",
+    "elementContent": [
+      "Po wykonaniu zadania i sprawdzeniu poprawności jego działania zgłoś to nauczycielowi",
+      "uwaga"
+    ]
+  }
+]
