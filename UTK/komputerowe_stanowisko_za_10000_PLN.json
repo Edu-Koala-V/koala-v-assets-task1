@@ -1,0 +1,238 @@
+[
+  {
+    "type": "h2",
+    "sectionID": "section1",
+    "elementContent": [
+      "Budowa pełnego stanowiska Komputerowego do 10 000 zł",
+      "orange"
+    ]
+  },
+  {
+    "type": "h2",
+    "sectionID": "section1",
+    "elementContent": ["Wymagania wstępne:", "wymagania"]
+  },
+  {
+    "type": "b",
+    "sectionID": "section1",
+    "elementContent": ["MS Excel", ""]
+  },
+  { "type": "br", "sectionID": "section1" },
+  {
+    "type": "h2",
+    "sectionID": "section2",
+    "elementContent": ["Treść zadania", "interface"]
+  },
+  {
+    "type": "span",
+    "sectionID": "section2",
+    "elementContent": [
+      "Przygotuj pełne stanowisko komputerowe dla gracza.",
+      ""
+    ]
+  },
+  {
+    "type": "span",
+    "sectionID": "section2",
+    "elementContent": [
+      " Uwzględnij w nim wszystkie niezbędne elementy, takie jak: ",
+      ""
+    ]
+  },
+  {
+    "type": "list",
+    "sectionID": "section2",
+    "elementContent": {
+      "ver": "ul",
+      "listElements": [
+        [
+          {
+            "type": "b",
+            "sectionID": "section2",
+            "elementContent": ["Biurko i krzesło", ""]
+          }
+        ],
+       [
+        {
+            "type": "b",
+            "sectionID": "section2",
+            "elementContent": ["Monitor", ""]
+            }
+       ],
+       [
+        {
+            "type": "b",
+            "sectionID": "section2",
+            "elementContent": ["Klawiatura", ""]
+            }
+       ],
+       [
+        {
+            "type": "b",
+            "sectionID": "section2",
+            "elementContent": ["Mysz", ""]
+            }
+       ],
+       [
+        {
+            "type": "b",
+            "sectionID": "section2",
+            "elementContent": ["Słuchawki", ""]
+            }
+       ],
+       [
+        {
+            "type": "b",
+            "sectionID": "section2",
+            "elementContent": ["Mikrofon", ""]
+            }
+       ],
+       [
+        {
+            "type": "b",
+            "sectionID": "section2",
+            "elementContent": ["Podkładka pod mysz lub na całe biurko", ""]
+            }
+       ]
+      ]
+    }
+  },
+  { "type": "br", "sectionID": "section2" },
+  { "type": "br", "sectionID": "section2" },
+  {
+    "type": "span",
+    "sectionID": "section2",
+    "elementContent": [
+      "Skompletuj konfigurację komputera PC tak, aby na ultra ustawieniach graficznych w Full HD uruchamiał następujące gry w co najmniej 60 FPS: ",
+      ""
+    ]
+  },
+    {
+        "type": "list",
+        "sectionID": "section2",
+        "elementContent": {
+        "ver": "ul",
+        "listElements": [
+            [
+            {
+                "type": "b",
+                "sectionID": "section2",
+                "elementContent": ["Gothic 2: Noc kruka", ""]
+            }
+            ],
+            [
+            {
+                "type": "b",
+                "sectionID": "section2",
+                "elementContent": ["Cyberpunk 2077", ""]
+            }
+            ],
+         [
+            {
+                "type": "b",
+                "sectionID": "section2",
+                "elementContent": ["Assassin's Creed Valhalla", ""]
+                }
+         ],
+         [
+            {
+                "type": "b",
+                "sectionID": "section2",
+                "elementContent": ["Call of Duty: Warzone", ""]
+                }
+         ],
+         [
+            {
+                "type": "b",
+                "sectionID": "section2",
+                "elementContent": ["Farming Simulator 24", ""]
+                }
+         ],
+         [
+            {
+                "type": "b",
+                "sectionID": "section1",
+                "elementContent": ["GTA V", ""]
+                }
+         ],
+         [
+            {
+                "type": "b",
+                "sectionID": "section1",
+                "elementContent": ["The Witcher 3: Wild Hunt", ""]
+                }
+         ]
+        ]
+        }
+    },
+    { "type": "br", "sectionID": "section2" },
+    { "type": "br", "sectionID": "section2" },
+    {
+      "type": "span",
+      "sectionID": "section2",
+      "elementContent": [
+        "Skorzystaj z tej strony aby zweryfikować czy twoje komponenty przy maksymalnych ustawieniach graficznych mają szansę na uruchomienie gier w co najmniej 60 FPS: ",
+        ""
+      ]
+    },
+    { "type": "link", "sectionID": "section2", "elementContent": ["https://technical.city/pl/can-i-run-it"] },
+    { "type": "br", "sectionID": "section2" },
+    { "type": "br", "sectionID": "section2" },
+    {
+        "type": "bi",
+        "sectionID": "section2",
+        "elementContent": [
+        "UWAGA! ",
+        "red"
+        ]
+    },
+    {
+      "type": "span",
+      "sectionID": "section2",
+      "elementContent": [
+        "Windows musi być legalny i zakupiony w sklepie, który jest legalnym dystrybutorem licencji Windows. ",
+        ""
+      ]
+    },
+    { "type": "br", "sectionID": "section2" },
+    { "type": "br", "sectionID": "section2" },
+    {
+        "type": "span",
+        "sectionID": "section2",
+        "elementContent": [
+        "Zestaw ma być skompletowany w cenie do 10 000 zł. ",
+        ""
+        ]
+    },
+  {
+    "type": "h2",
+    "sectionID": "section3",
+    "elementContent": ["Efekt końcowi:", ""]
+  },
+  {
+    "type": "span",
+    "sectionID": "section3",
+    "elementContent": [
+      "Dwie tabele w Excelu, zawierające listę zakupów oraz zestawienie cen poszczególnych elementów z podliczoną sumą. W tabeli każdy element musi zawierać link do sklepu, w którym można go zakupić. ",
+      ""
+    ]
+  },
+  { "type": "br", "sectionID": "section3" },
+  { "type": "br", "sectionID": "section3" },
+  {
+    "type": "span",
+    "sectionID": "section3",
+    "elementContent": [
+      "Każdorazowe przekroczenie budżetu o kwotę 300 zł oznacza obniżenie oceny o 1.",
+      ""
+    ]
+  },
+  {
+    "type": "h2",
+    "sectionID": "section3",
+    "elementContent": [
+      "Po wykonaniu zadania i upewnij się że nie ma błędów, a nastepnie zgłoś to nauczycielowi.",
+      "uwaga"
+    ]
+  }
+]
