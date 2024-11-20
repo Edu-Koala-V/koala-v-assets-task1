@@ -1,1 +1,101 @@
-[{"type":"h2","sectionID":"section1","elementContent":["Nazwa zadania",""]}]
+[
+    {
+      "type": "h2",
+      "sectionID": "section1",
+      "elementContent": [
+        "PowerShell (SMB) z buforowaniem plików",
+        "orange"
+      ]
+    },
+    {
+      "type": "h2",
+      "sectionID": "section1",
+      "elementContent": ["Wymagania wstępne:", "wymagania"]
+    },
+    {
+      "type": "b",
+      "sectionID": "section1",
+      "elementContent": ["Windows w wersji serwerowej", ""]
+    },
+      { "type": "br", "sectionID": "section1" },
+      { "type": "br", "sectionID": "section1" },
+    {
+        "type": "b",
+        "sectionID": "section1",
+        "elementContent": ["Windows w wersji klienckiej", ""]
+      },
+    {
+      "type": "h2",
+      "sectionID": "section2",
+      "elementContent": ["Treść zadania", "interface"]
+    },
+    {
+        "type": "span",
+        "sectionID": "section2",
+        "elementContent": [
+          "Utwórz lokalnego użytkownika Roberto za pomocą przystawki Zarządzanie komputerem na serwerze Windows.",
+          ""
+        ]
+      },
+      { "type": "br", "sectionID": "section2" },
+    {
+      "type": "span",
+      "sectionID": "section2",
+      "elementContent": [
+        "Stwórz katalog o nazwie 'test' na dysku C:.",
+        ""
+      ]
+    },
+    { "type": "br", "sectionID": "section2" },
+    {
+        "type": "span",
+        "sectionID": "section2",
+        "elementContent": [
+          "Zmień uprawnienia do tego katalogu, aby dostęp do niego miał wyłącznie użytkownik 'Roberto'.",
+          ""
+        ]
+      },
+    { "type": "br", "sectionID": "section2" },
+    {
+      "type": "span",
+      "sectionID": "section2",
+      "elementContent": [
+        "Dodaj nową rolę na serwerze Windows Server - 'Serwer plików' oraz funkcję 'Menadżer zasobów serwera plików'.",
+        ""
+      ]
+    },
+    { "type": "br", "sectionID": "section2" },
+    {
+      "type": "span",
+      "sectionID": "section2",
+      "elementContent": [
+        "Za pomocą PowerShell udostępnij katalog test jako udział sieciowy o nazwie 'test_share'.",
+        ""
+      ]
+    },
+    { "type": "br", "sectionID": "section2" },
+    { "type": "br", "sectionID": "section2" },
+    
+    {
+      "type": "h2",
+      "sectionID": "section3",
+      "elementContent": ["Efekt końcowi:", ""]
+    },
+    {
+      "type": "span",
+      "sectionID": "section3",
+      "elementContent": [
+        "Z poziomu klienta wyszukaj udział sieciowy i zaloguj się na konto Roberto, aby uzyskać dostęp do zasobu sieciowego. Następnie stwórz plik test.txt z zawartością: Twoje imię, nazwisko oraz numer z dziennika.",
+        ""
+      ]
+    },
+    {
+      "type": "h2",
+      "sectionID": "section3",
+      "elementContent": [
+        "Po wykonaniu zadania i sprawdzeniu poprawności jego działania zgłoś to nauczycielowi",
+        "uwaga"
+      ]
+    }
+  ]
+  
