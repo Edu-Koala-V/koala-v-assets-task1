@@ -1,1 +1,188 @@
-[{"type":"h2","sectionID":"section1","elementContent":["Nazwa zadania",""]}]
+[
+    {
+      "type": "h2",
+      "sectionID": "section1",
+      "elementContent": ["Podstawowa konfiguracja DHCP w Ubuntu Server", ""]
+    },
+    {
+      "type": "h2",
+      "sectionID": "section1",
+      "elementContent": ["Wymagania wstępne:", "wymagania"]
+    },
+    {
+      "type": "b",
+      "sectionID": "section1",
+      "elementContent": ["Ubuntu w wersji serwerowej", ""]
+    },
+    { "type": "br", "sectionID": "section1" },
+    {
+        "type": "b",
+        "sectionID": "section1",
+        "elementContent": ["Windows w wersji klienckiej", ""]
+      },
+      { "type": "br", "sectionID": "section1" },
+    {
+      "type": "h2",
+      "sectionID": "section2",
+      "elementContent": ["Treść zadania", "interface"]
+    },
+    {
+        "type": "span",
+        "sectionID": "section2",
+        "elementContent": ["Skonfiguruj maszyny wirtualne dodając kartę sieciową ", ""]
+      },
+    { "type": "b", "sectionID": "section2", "elementContent": ["NAT ", "green"] },
+    {
+      "type": "span",
+      "sectionID": "section2",
+      "elementContent": [" i ", ""]
+    },
+    { "type": "b", "sectionID": "section2", "elementContent": ["Sieć wewnętrzna", "pink"] },
+    {
+      "type": "span",
+      "sectionID": "section2",
+      "elementContent": [" dla wirtualizacji serwera, oraz ", ""]
+    },
+    { "type": "b", "sectionID": "section2", "elementContent": ["Sieć wewnętrzna", "pink"] },
+    {
+        "type": "span",
+        "sectionID": "section2",
+        "elementContent": [" dla wirtualizacji klienta.", ""]
+      },
+    { "type": "br", "sectionID": "section2" },
+    {
+      "type": "list",
+      "sectionID": "section2",
+      "elementContent": {
+        "ver": "ul",
+        "listElements": [
+          [
+            {
+              "type": "span",
+              "sectionID": "section2",
+              "elementContent": ["Adres IPv4 w serwerze: ", ""]
+            },
+            {
+              "type": "bi",
+              "sectionID": "section2",
+              "elementContent": ["192.168.8.50", ""]
+            }
+          ],
+          [
+            {
+                "type": "span",
+                "sectionID": "section2",
+                "elementContent": ["Zakres puli adresów w DHCP: ", ""]
+              },
+              {
+                "type": "bi",
+                "sectionID": "section2",
+                "elementContent": ["192.168.8.100", "orange"]
+              },
+              {
+                "type": "span",
+                "sectionID": "section2",
+                "elementContent": [" ÷ ", "red"]
+              },
+              {
+                "type": "bi",
+                "sectionID": "section2",
+                "elementContent": ["192.168.8.240", "orange"]
+              }
+          ],
+          [
+            {
+                "type": "span",
+                "sectionID": "section2",
+                "elementContent": ["Wszystkie adresacje posiadają ", ""]
+              },
+              {
+                "type": "b",
+                "sectionID": "section2",
+                "elementContent": ["maskę podsieci klasy C", "green"]
+              }
+          ]
+        ]
+      }
+    },
+    { "type": "br", "sectionID": "section2" },
+    {
+      "type": "h2",
+      "sectionID": "section2",
+      "elementContent": ["Efekt końcowi:", ""]
+    },
+    {
+      "type": "list",
+      "sectionID": "section2",
+      "elementContent": {
+        "ver": "ul",
+        "listElements": [
+          [
+            {
+              "type": "span",
+              "sectionID": "section2",
+              "elementContent": ["Wywołanie komendy ", ""]
+            },
+            {
+              "type": "text-block-name",
+              "sectionID": "section2",
+              "elementContent": ["ip -c a", ""]
+            },
+            {
+              "type": "span",
+              "sectionID": "section2",
+              "elementContent": ["na serwerze ukazuje poprawny adres ", ""]
+            },
+            {
+              "type": "b",
+              "sectionID": "section2",
+              "elementContent": ["IPv4", ""]
+            },
+            {
+              "type": "span",
+              "sectionID": "section2",
+              "elementContent": [".", ""]
+            }
+          ],
+          [
+            {
+              "type": "span",
+              "sectionID": "section2",
+              "elementContent": ["Na kliencie po wywołaniu komendy ", ""]
+            },
+            {
+                "type": "text-block-name",
+                "sectionID": "section2",
+                "elementContent": ["ipconfig", ""]
+              },
+            {
+              "type": "span",
+              "sectionID": "section2",
+              "elementContent": [" ukazuje się interfejs sieciowy z przydzielonym adresem z puli : ", ""]
+            },
+            {
+              "type": "b",
+              "sectionID": "section2",
+              "elementContent": ["DHCP", "pink"]
+            },
+            {
+              "type": "span",
+              "sectionID": "section2",
+              "elementContent": [".", ""]
+            }        
+          ]
+        ]
+      }
+    },
+  
+  
+    { "type": "br", "sectionID": "section3" },
+    {
+      "type": "h2",
+      "sectionID": "section3",
+      "elementContent": [
+        "Po wykonaniu zadania i sprawdzeniu poprawności jego działania zgłoś to nauczycielowi",
+        "uwaga"
+      ]
+    }
+  ]
