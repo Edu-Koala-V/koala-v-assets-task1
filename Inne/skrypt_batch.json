@@ -1,0 +1,32 @@
+[
+  {"type": "h2", "sectionID": "section1", "elementContent": ["Zarządzanie dyskami w systemach Linux"]},
+  {"type": "h2", "sectionID": "section1", "elementContent": ["Wymagania wstępne:","wymagania"]},
+{"type": "b", "sectionID": "section1","elementContent":["Windows w wersji klienckiej",""]},
+{"type": "br", "sectionID": "section1"},
+  
+  
+  {"type": "h2", "sectionID": "section2", "elementContent": ["Treść zadania","interface"]},
+  {"type": "span", "sectionID": "section2","elementContent":["Napisz skrypt BATCH który zapyta czy chcesz dodać użytkowników czy usunąć.",""]},
+  {"type": "br", "sectionID": "section2"},
+    {"type": "br", "sectionID": "section2"},
+  {"type": "span", "sectionID": "section2","elementContent":["Jeżeli wybiorę dodać to skrypt zapyta o bazową nazwę kont, a następnie utworzy 4 konta numerowane wykorzystując do tego pętlę for.",""]},
+ {"type": "br", "sectionID": "section2"},
+ {"type": "span", "sectionID": "section2","elementContent":["Przykładowo podając nazwę bazową user utworzą się konta user1, user2, user3 i user4 z domyślnym hasłem ZAQ!2wsx",""]},
+ {"type": "br", "sectionID": "section2"},
+    {"type": "br", "sectionID": "section2"},
+ {"type": "span", "sectionID": "section2","elementContent":["Adekwatnie w przypadku usuwania też bedzie trzeba podać nazwę bazową i skrypt usunie te konta.",""]},
+
+     
+    
+  {"type": "h2", "sectionID": "section3", "elementContent": ["Efekt końcowi:",""]},
+  {"type": "span", "sectionID": "section3","elementContent":["Uruchom skrypt jako administrator w wirtualnej maszynie z windows 10.",""]},
+  {"type": "br", "sectionID": "section3"},
+  {"type": "span", "sectionID": "section3","elementContent":["Dokonaj wyboru akcji.",""]},
+  {"type": "br", "sectionID": "section3"},
+  {"type": "span", "sectionID": "section3","elementContent":["Podaj nazwę bazową ",""]},
+  {"type": "br", "sectionID": "section3"},
+  {"type": "span", "sectionID": "section3","elementContent":["Sprawdź poprawność wykonania akcji",""]},
+
+  
+  {"type": "h2", "sectionID": "section3", "elementContent": ["Po wykonaniu zadania i sprawdzeniu poprawności jego działania zgłoś to nauczycielowi", "uwaga"]}
+  ]
