@@ -40,8 +40,11 @@
           ]
       ]},
 
+  {"type": "br", "sectionID": "section3"},
+  {"type": "br", "sectionID": "section3"},
   {"type": "span", "sectionID": "section3","elementContent":["Skonfiguruj IIS do obsługi Interpretera PHP i bazy danych MySQL oraz DNS strony dla www.koala.pl",""]},
-  {"type": "span", "sectionID": "section3","elementContent":["Pobierz pliki strony i przetestuj poprawność konfiguracji:",""]},
+   {"type": "br", "sectionID": "section3"},
+  {"type": "span", "sectionID": "section3","elementContent":["Pobierz pliki strony i przetestuj poprawność konfiguracji: ",""]},
   {"type": "link","sectionID":"section3","elementContent":["http://koalav.pl/StronaAppacheKoalaPL.zip"]},
   
     
