@@ -1,1 +1,207 @@
-[{"type":"h2","sectionID":"section1","elementContent":["Podstawowa konfiguracja DHCP w Ubuntu Server",""]},{"type":"h2","sectionID":"section1","elementContent":["Wymagania wstępne:","wymagania"]},{"type":"b","sectionID":"section1","elementContent":["Ubuntu w wersji serwerowej",""]},{"type":"br","sectionID":"section1"},{"type":"b","sectionID":"section1","elementContent":["Windows w wersji klienckiej",""]},{"type":"br","sectionID":"section1"},{"type":"text-block-name","sectionID":"section1","elementContent":["@echo off echo wykonano! pause",""]},{"type":"h2","sectionID":"section2","elementContent":["Treść zadania","interface"]},{"type":"span","sectionID":"section2","elementContent":["Wykorzystując treść poradnika konfiguracji Samby: ",""]},{"type":"link","sectionID":"section2","elementContent":["https://koalapl.github.io/aso.html#11"]},{"type":"span","sectionID":"section2","elementContent":[", skonfiguruj server ",""]},{"type":"b","sectionID":"section2","elementContent":["FTP","green"]},{"type":"span","sectionID":"section2","elementContent":[". Tak aby uzyskać dwa rodzaje udostępnionych katalogów na zasoby. ",""]},{"type":"list","sectionID":"section2","elementContent":{"ver":"ul","listElements":[[{"type":"span","sectionID":"section2","elementContent":["Udział sieciowy ",""]},{"type":"i","sectionID":"section2","elementContent":["Autoryzowane",""]},{"type":"span","sectionID":"section2","elementContent":["Wymagające poświadczenia za pomocą konta servera Ubuntu o nazwie ",""]},{"type":"bi","sectionID":"section2","elementContent":["tajniak",""]},{"type":"span","sectionID":"section2","elementContent":[" i haśle ",""]},{"type":"bi","sectionID":"section2","elementContent":["ZAQ!2wsx",""]},{"type":"span","sectionID":"section2","elementContent":["Po autoryzacji użytkownik powinien mieć pełne prawa do ",""]},{"type":"bi","sectionID":"section2","elementContent":["odczytu",""]},{"type":"span","sectionID":"section2","elementContent":[", ",""]},{"type":"bi","sectionID":"section2","elementContent":["zapisu",""]},{"type":"span","sectionID":"section2","elementContent":[" i ",""]},{"type":"bi","sectionID":"section2","elementContent":["wykonania",""]},{"type":"span","sectionID":"section2","elementContent":[".",""]}],[{"type":"span","sectionID":"section2","elementContent":["Udział sieciowy ",""]},{"type":"i","sectionID":"section2","elementContent":["Nieautoryzowane",""]},{"type":"span","sectionID":"section2","elementContent":["Nie wymagające poświadczenia za pomocą konta servera Ubuntu.",""]},{"type":"span","sectionID":"section2","elementContent":["Użytkownik powinien mieć ograniczone prawa do  udziału czyli tylko ",""]},{"type":"bi","sectionID":"section2","elementContent":["odczytu",""]},{"type":"span","sectionID":"section2","elementContent":[".",""]}]]}},{"type":"br","sectionID":"section2"},{"type":"span","sectionID":"section2","elementContent":["Do przeprowadzenia testu wykonania z udziału autoryzowanego przygotuj z poziomu servera Ubuntu plik ",""]},{"type":"b","sectionID":"section2","elementContent":["BATCH","red"]},{"type":"span","sectionID":"section2","elementContent":["o rozszerzeniu  ",""]},{"type":"text-block-name","sectionID":"section2","elementContent":[".bat",""]},{"type":"span","sectionID":"section2","elementContent":[" z następującą treścią: ",""]},{"type":"br","sectionID":"section2"},{"type":"h2","sectionID":"section2","elementContent":["Efekt końcowi:",""]},{"type":"span","sectionID":"section2","elementContent":["Skonfiguruj interfejsy obu maszyn i z poziomu windows`a klienckiego przetestuj poprawność konfiguracji.",""]},{"type":"br","sectionID":"section3"},{"type":"h2","sectionID":"section3","elementContent":["Po wykonaniu zadania i sprawdzeniu poprawności jego działania zgłoś to nauczycielowi","uwaga"]}]
+[
+    {
+      "type": "h2",
+      "sectionID": "section1",
+      "elementContent": ["Podstawowa konfiguracja DHCP w Ubuntu Server", ""]
+    },
+    {
+      "type": "h2",
+      "sectionID": "section1",
+      "elementContent": ["Wymagania wstępne:", "wymagania"]
+    },
+    {
+      "type": "b",
+      "sectionID": "section1",
+      "elementContent": ["Ubuntu w wersji serwerowej", ""]
+    },
+    { "type": "br", "sectionID": "section1" },
+    {
+        "type": "b",
+        "sectionID": "section1",
+        "elementContent": ["Windows w wersji klienckiej", ""]
+      },
+      { "type": "br", "sectionID": "section1" },
+    {
+      "type": "h2",
+      "sectionID": "section2",
+      "elementContent": ["Treść zadania", "interface"]
+    },
+    {
+        "type": "span",
+        "sectionID": "section2",
+        "elementContent": ["Wykorzystując treść poradnika konfiguracji Samby: ", ""]
+      },
+      {"type": "link","sectionID":"section2","elementContent":["https://koalapl.github.io/aso.html#11"]},
+      {
+        "type": "span",
+        "sectionID": "section2",
+        "elementContent": [", skonfiguruj server ", ""]
+      },
+    { "type": "b", "sectionID": "section2", "elementContent": ["FTP", "green"] },
+    {
+      "type": "span",
+      "sectionID": "section2",
+      "elementContent": [". Tak aby uzyskać dwa rodzaje udostępnionych katalogów na zasoby. ", ""]
+    },
+    {
+      "type": "list",
+      "sectionID": "section2",
+      "elementContent": {
+        "ver": "ul",
+        "listElements": [
+          [
+            {
+              "type": "span",
+              "sectionID": "section2",
+              "elementContent": ["Udział sieciowy ", ""]
+            },
+            {
+              "type": "i",
+              "sectionID": "section2",
+              "elementContent": ["Autoryzowane", ""]
+            },
+            {
+                "type": "span",
+                "sectionID": "section2",
+                "elementContent": ["Wymagające poświadczenia za pomocą konta servera Ubuntu o nazwie ", ""]
+              },
+              {
+                "type": "bi",
+                "sectionID": "section2",
+                "elementContent": ["tajniak", "blue"]
+              },
+              {
+                "type": "span",
+                "sectionID": "section2",
+                "elementContent": [" i haśle ", ""]
+              },
+              {
+                "type": "bi",
+                "sectionID": "section2",
+                "elementContent": ["ZAQ!2wsx", "blue"]
+              },
+              {
+                "type": "span",
+                "sectionID": "section2",
+                "elementContent": ["Po autoryzacji użytkownik powinien mieć pełne prawa do ", ""]
+              },
+              {
+                "type": "bi",
+                "sectionID": "section2",
+                "elementContent": ["odczytu", "purple"]
+              },
+              {
+                "type": "span",
+                "sectionID": "section2",
+                "elementContent": [", ", ""]
+              },
+              {
+                "type": "bi",
+                "sectionID": "section2",
+                "elementContent": ["zapisu", "purple"]
+              },
+              {
+                "type": "span",
+                "sectionID": "section2",
+                "elementContent": [" i ", ""]
+              },
+              {
+                "type": "bi",
+                "sectionID": "section2",
+                "elementContent": ["wykonania", "purple"]
+              },
+              {
+                "type": "span",
+                "sectionID": "section2",
+                "elementContent": [".", ""]
+              }
+          ],
+          [
+            {
+              "type": "span",
+              "sectionID": "section2",
+              "elementContent": ["Udział sieciowy ", ""]
+            },
+            {
+              "type": "i",
+              "sectionID": "section2",
+              "elementContent": ["Nieautoryzowane", ""]
+            },
+            {
+                "type": "span",
+                "sectionID": "section2",
+                "elementContent": ["Nie wymagające poświadczenia za pomocą konta servera Ubuntu.", ""]
+              },
+              {
+                "type": "span",
+                "sectionID": "section2",
+                "elementContent": ["Użytkownik powinien mieć ograniczone prawa do  udziału czyli tylko ", ""]
+              },
+              {
+                "type": "bi",
+                "sectionID": "section2",
+                "elementContent": ["odczytu", "purple"]
+              },
+              {
+                "type": "span",
+                "sectionID": "section2",
+                "elementContent": [".", ""]
+              }
+          ]
+        ]
+      }
+    },
+    {
+        "type": "span",
+        "sectionID": "section2",
+        "elementContent": ["Do przeprowadzenia testu wykonania z udziału autoryzowanego przygotuj z poziomu servera Ubuntu plik ", ""]
+      },
+      {
+        "type": "b",
+        "sectionID": "section2",
+        "elementContent": ["BATCH", "red"]
+      },
+      {
+        "type": "span",
+        "sectionID": "section2",
+        "elementContent": ["o rozszerzeniu  ", ""]
+      },
+      {
+        "type": "text-block-name",
+        "sectionID": "section2",
+        "elementContent": [".bat", ""]
+      },
+      {
+        "type": "span",
+        "sectionID": "section2",
+        "elementContent": [" z następującą treścią: ", ""]
+      },
+      { "type": "br", "sectionID": "section2" },
+      {
+        "type": "text-block-name",
+        "sectionID": "section1",
+        "elementContent": ["@echo off\necho wykonano!\npause", ""]
+      },
+
+    {
+      "type": "h2",
+      "sectionID": "section2",
+      "elementContent": ["Efekt końcowi:", ""]
+    },
+    {
+      "type": "span",
+      "sectionID": "section2",
+      "elementContent": ["Skonfiguruj interfejsy obu maszyn i z poziomu windows`a klienckiego przetestuj poprawność konfiguracji.", ""]
+    },
+  
+  
+    { "type": "br", "sectionID": "section3" },
+    {
+      "type": "h2",
+      "sectionID": "section3",
+      "elementContent": [
+        "Po wykonaniu zadania i sprawdzeniu poprawności jego działania zgłoś to nauczycielowi",
+        "uwaga"
+      ]
+    }
+  ]
