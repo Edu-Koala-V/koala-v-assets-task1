@@ -1,5 +1,5 @@
 [
-  {"type": "h2", "sectionID": "section1", "elementContent": ["Kontrola wersji plików – historia plików użytkowników"]},
+  {"type": "h2", "sectionID": "section1", "elementContent": ["IIS z obsługą interpretera PHP i bazy danych MySQL"]},
   {"type": "h2", "sectionID": "section1", "elementContent": ["Wymagania wstępne:","wymagania"]},
     {"type": "b", "sectionID": "section1","elementContent":["Windows w wersji klienckiej",""]},
     {"type": "br", "sectionID": "section1"},
