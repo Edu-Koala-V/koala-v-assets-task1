@@ -2,7 +2,7 @@
     {
       "type": "h2",
       "sectionID": "section1",
-      "elementContent": ["Podstawowa konfiguracja DHCP w Ubuntu Server", ""]
+      "elementContent": ["Konfiguracja servera FTP - Samba", ""]
     },
     {
       "type": "h2",
@@ -179,7 +179,7 @@
       { "type": "br", "sectionID": "section2" },
       {
         "type": "text-block-name",
-        "sectionID": "section1",
+        "sectionID": "section2",
         "elementContent": ["@echo off\necho wykonano!\npause", ""]
       },
 
